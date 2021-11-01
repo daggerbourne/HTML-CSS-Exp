@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Zen+Antique&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Zen Antique', serif;
+}
+
+.hero-content{
+    background-color:rgb(88, 225, 238);
+    margin: auto;
+    padding: 20px 20px;
+
+}
+h1 {
+color: rgb(223, 83, 83);
+}
+
+h2 {
+    color: rgb(56, 174, 185)
+}
+
+body {
+     margin: 0px;
+     padding: 0px;
+     min-height: 100vh;
+     background-color: #1b1b1b;
+     color: #ffffff
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+color: #ffffff
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    font-size: 105%;
+}
+
+nav {
+    padding: 10px;
+
+    @media (min-width: 600px){
+        padding: 20px;
+}
+}
